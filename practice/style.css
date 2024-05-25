@@ -1,0 +1,124 @@
+.container {
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-form {
+    background-color: rgb(169, 55, 214);
+    width: 460px;
+    color: white;
+    box-shadow: 10px 15px 15px rgba(0,0,0,15);
+    margin: auto;
+}
+.title-form {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    position: relative;
+    top: 40px;
+    font-family: arial;
+}
+.username {
+    width: 87%;
+    height: 5px;
+    margin: 70px;
+    position: relative;
+}
+.username input {
+    width: 70%;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    padding: 25px 10px 7.5px;
+    border-radius: 4px;
+    color: black;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: arial;
+}
+.username input::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: arial;
+}
+.password {
+    width: 100px;
+    margin: 70px;
+}
+.password input {
+    position: relative;
+    width: 280px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    padding: 25px 10px 7.5px;
+    border-radius: 4px;
+    color: fff;
+    font-weight: 500;
+    font-size: 1em;
+    font-family: arial;
+}
+.password input::placeholder {
+    color: rgb(0, 0, 0);
+    font-family: arial;
+}
+.login {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    background:rgb(86, 23, 110);
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    outline: 0;
+    color: white;
+    position: relative;
+    bottom: 50px;
+    cursor: pointer;
+    font-family: arial;
+    border-radius: 2px;
+    transition: opacity 1s;
+    transition: background-color 0.30s;
+}
+.login:hover {
+    background-color: rgb(94, 25, 158);
+}
+.login:active {
+    background-color: rgb(94, 25, 158);
+    opacity: 0.5;
+}
+.checkbox {
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 65px;
+    padding-right: 20px;
+    font-family: arial;
+}
+.checkbox a {
+    color: white;
+    text-decoration: none;
+    margin-right: 3px;
+    margin-left: 45px;
+    font-family: arial;
+}
+.label {
+    text-align: center;
+    font-family: arial;
+}
+.register-link {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-family: arial;
+}
+.register-link a {
+    text-decoration: none;
+    margin-right: 1px;
+    margin-left: 10px;
+    font-family: arial;
+    font-weight: bold;
+}
